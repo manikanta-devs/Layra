@@ -1,6 +1,6 @@
-// Lyra AI — Service Worker v1.0
-const CACHE = 'lyra-v1';
-const SHELL = ['./', './index.html', './manifest.json'];
+// Lyra AI — Service Worker v2.0
+const CACHE = 'lyra-v2';
+const SHELL = ['./', './index.html', './manifest.json', './404.html'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
